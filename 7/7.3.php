@@ -10,3 +10,7 @@ switch ($iAnyIntegerNumber) {
         echo "Не равно 0";
 
 }
+
+//Еще вариант
+$msg = ($iAnyIntegerNumber == 0) ? "равно 0" : "не равно 0";
+echo $msg;
